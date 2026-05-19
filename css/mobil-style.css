@@ -150,15 +150,16 @@
     -moz-transition: all 0.5s linear;
     -ms-transition: all 0.5s linear;
     -o-transition: all 0.5s linear;
+    height: 200px;
+    flex-direction: row;
 }
 
-.slit-2 .div-1 a img,
-.slit-2 .div-2 a img  {
-    transform: scale(0.75,0.9);
-    -webkit-transform: scale(0.75,0.9);
-    -moz-transform: scale(0.75,0.9);
-    -ms-transform: scale(0.75,0.9);
-    -o-transform: scale(0.75,0.9);
+.slit-2 .div-1 ,
+.slit-2 .div-2 {
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 100%;
 }  /* end style mobil of slit-2 */
 
 
