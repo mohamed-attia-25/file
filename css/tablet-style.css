@@ -13,10 +13,43 @@
     }  /* end style tablet of nav bar */
 
 
+
+    
+    /* start style tabket of slit-1 */
+    .slit-1 {
+        flex-direction: column;
+        height: 1100px;
+        transform: translateY(145px);
+        -webkit-transform: translateY(145px);
+        -moz-transform: translateY(145px);
+        -ms-transform: translateY(145px);
+        -o-transform: translateY(145px);
+}
+
+.slit-1 .div-1 {
+    align-self: flex-start;
+    margin-left: 50px;
+}   /* end style tabket of slit-1 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 } /* end tablet style */
 
-/* start solv proplem for wrab */
 
+
+/* start solv proplem for wrab */
 @media (max-width: 958px) {
 
     .nav-bar .links-nav {

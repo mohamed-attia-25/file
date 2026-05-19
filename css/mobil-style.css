@@ -2,16 +2,21 @@
 @media (max-width: 600px) {
     /* start style mobil of nav bar */
     .nav-bar {
-        height: 100px;
-        transition: all 0.5s ease;
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -ms-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
+        height: 80px;
+        transition: all 0.5s linear;
+        -webkit-transition: all 0.5s linear;
+        -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+        -o-transition: all 0.5s linear;
 }
 
     .nav-bar .logo img {
         width: 150px;
+        margin-top: 10px;
+    }
+
+    .button-sign{
+        margin-top: 10px;
     }
     
     .nav-bar .links-nav {
@@ -28,6 +33,7 @@
         -moz-transition: all 0.4s ease;
         -ms-transition: all 0.4s ease;
         -o-transition: all 0.4s ease;
+        order: 3;
 } 
 
 /* start style nav bar check */
@@ -79,8 +85,80 @@
 
 .nav-bar:has(#check-nav:checked) .links-nav {
     height: 260px;
+} 
+
+.nav-bar:has(#check-nav:checked) + .slit-1 {
+    transform: translateY(400px);
+    -webkit-transform: translateY(400px);
+    -moz-transform: translateY(400px);
+    -ms-transform: translateY(400px);
+    -o-transform: translateY(400px);
 }
-/* end style mobil of nav bar */
+ /* end style mobil of nav bar */
+
+
+/* start style mobil of slit-1 */
+.slit-1 {
+    transform: translateY(80px);
+    -webkit-transform: translateY(80px);
+    -moz-transform: translateY(80px);
+    -ms-transform: translateY(80px);
+    -o-transform: translateY(80px);
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    height: 850px;
+    justify-content: flex-start;
+}
+
+.slit-1 .div-1 {
+    margin-left: -25px;
+    transform: scale(0.8,0.8);
+    -webkit-transform: scale(0.8,0.8);
+    -moz-transform: scale(0.8,0.8);
+    -ms-transform: scale(0.8,0.8);
+    -o-transform: scale(0.8,0.8);
+}
+
+.slit-1 .div-2 {
+    margin-top: -90px;
+    transform: scale(0.63,0.65);
+    -webkit-transform: scale(0.63,0.65);
+    -moz-transform: scale(0.63,0.65);
+    -ms-transform: scale(0.63,0.65);
+    -o-transform: scale(0.63,0.65);
+    flex-grow: 2;
+}
+
+.slit-1 .div-1 .cont-2 {
+    
+}
+
+
+/* end style mobil of slit-1 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }  /* end mobil style */
