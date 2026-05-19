@@ -1,8 +1,14 @@
-/* mobil style */
+/* start mobil style */
 @media (max-width: 600px) {
+    /* start style mobil of nav bar */
     .nav-bar {
-        height: 450px;
-    }
+        height: 100px;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+}
 
     .nav-bar .logo img {
         width: 150px;
@@ -11,6 +17,70 @@
     .nav-bar .links-nav {
         flex-direction: column;
         width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        height: 0px;
+        overflow: hidden;
+        white-space: nowrap;
         gap: 30px;
-    }
+        transition: all 0.4s ease;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+} 
+
+/* start style nav bar check */
+.nav-bar .lab-check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    font-size: 20px;
+    background-color: #eee;
+    width: 65px;
+    height: 32px;
+    transform: translate(-50%,100%);
+    -webkit-transform: translate(-50%,100%);
+    -moz-transform: translate(-50%,100%);
+    -ms-transform: translate(-50%,100%);
+    -o-transform: translate(-50%,100%);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
+
+.nav-bar .lab-check i {
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+/*  end style nav bar check */ 
+
+.nav-bar:has(#check-nav:checked) .lab-check i {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+.nav-bar:has(#check-nav:checked) {
+    height: 400px;
+}
+
+.nav-bar:has(#check-nav:checked) .links-nav {
+    height: 260px;
+}
+/* end style mobil of nav bar */
+
+
+}  /* end mobil style */
