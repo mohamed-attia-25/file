@@ -1,0 +1,24 @@
+/* tablet style */
+@media (max-width: 992px) {
+    /* style tablet of nav bar */
+    .nav-bar {
+        flex-wrap: wrap;
+        height: 140px;
+        width: 100%;
+    }
+
+    .nav-bar .links-nav {
+        gap: 40px;
+        font-size: 25;
+    }
+
+
+}
+
+@media (max-width: 958px) {
+
+    .nav-bar .links-nav {
+        order: 3;
+    }
+
+}

@@ -1,0 +1,16 @@
+/* mobil style */
+@media (max-width: 600px) {
+    .nav-bar {
+        height: 450px;
+    }
+
+    .nav-bar .logo img {
+        width: 150px;
+    }
+    
+    .nav-bar .links-nav {
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
+}
