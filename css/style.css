@@ -24,6 +24,7 @@ li {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    height: 400vh;
 }/* end style continer */
 
 
@@ -31,7 +32,7 @@ li {
 .nav-bar {
     width: 100%;
     height: 85px;
-    background-color: rgb(1, 105, 109);
+    background-color: #01404E;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
@@ -245,9 +246,6 @@ li {
 }
 
 
-
-
-
 .slit-1 .div-2 {
     display: flex;
     justify-content: center;
@@ -271,8 +269,46 @@ li {
         -moz-transform: translateY(-20px);
         -ms-transform: translateY(-20px);
         -o-transform: translateY(-20px);
-}
+    }
+}    /* end style slit-1 */
+
+
+/* start style slit-2 */
+.slit-2 {
+    background-color: #04684C;
+    width: 100%;
+    height: 80px;
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
+.slit-2 .div-1,
+.slit-2 .div-2 {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+
+.slit-2 .div-1 a img,
+.slit-2 .div-2 a img {
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+
+.slit-2 .div-1 a:hover img,
+.slit-2 .div-2 a:hover img{
+    transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+} /* end style slit-2 */
 
