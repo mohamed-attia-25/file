@@ -17,6 +17,30 @@ li {
     text-decoration: none;
 }
 
+/* start style scroll */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color:#01404e;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #04684C;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #E2FF54;
+}    /* end style scroll */
+
+
 
 /* start style continet */
 .continer {
@@ -25,7 +49,7 @@ li {
     justify-content: flex-start;
     align-items: center;
     height: 400vh;
-}/* end style continer */
+}   /* end style continer */
 
 
 /* start style of nav bar */
@@ -312,3 +336,131 @@ li {
     -o-transform: scale(1.2,1.2);
 } /* end style slit-2 */
 
+
+
+/* start style slit-3 */
+.slit-3 {
+    width: 100%;
+    display: flex;
+    height: 850px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.slit-3 .div-1 {
+    width: 500px;
+    height: 500px;  
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.slit-3 .div-2 {
+    background-color:  rgb(255, 255, 255);
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.slit-3 .div-2 .d-1 {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    background-color: #F5F5F5;
+    padding: 10px ;
+    font-weight: 900;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    animation-name: move-about;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes move-about {
+    to {
+        transform: translateY(20px);
+        -webkit-transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        -o-transform: translateY(20px);
+}
+}
+
+.slit-3 .div-2 .d-2 {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+
+
+
+.slit-3 .div-2 .d-3 {
+    height: 430px;
+    overflow-y: scroll;
+    white-space: nowrap;
+    padding-right: 20px;
+}
+
+.slit-3 .div-2 .d-3 div {
+    width: 550px;
+    height: 130px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 5px solid #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px ;
+    padding-left: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition:all 0.4s ease;
+    -webkit-transition:all 0.4s ease;
+    -moz-transition:all 0.4s ease;
+    -ms-transition:all 0.4s ease;
+    -o-transition:all 0.4s ease;
+}
+
+.slit-3 .div-2 .d-3 div:hover {
+    background-color: #F1FFD2;
+    border-color: #F1FFD2;
+}
+
+.slit-3 .div-2 .d-3 div h3 {
+    font-size: 23px;
+    font-weight: 900;
+}
+
+.slit-3 .div-2 .d-3 div p {
+    font-size: 18px;
+    color: #6B6969;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+
+.slit-3 .div-2 .d-3 div:hover p{
+    color: black;
+}      /* end style slit-3 */

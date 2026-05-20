@@ -163,9 +163,56 @@
 }  /* end style mobil of slit-2 */
 
 
+/* start style tablet of slit-3 */
+.slit-3 .div-1 {
+    width: 380px;
+    height: 380px;
+}
+
+.slit-3 .div-1 img {
+    transform: scale(0.9,0.9);
+    -webkit-transform: scale(0.9,0.9);
+    -moz-transform: scale(0.9,0.9);
+    -ms-transform: scale(0.9,0.9);
+    -o-transform: scale(0.9,0.9);
+}
+
+.slit-3 .div-2 {
+    height: 750px;
+}
+
+.slit-3 .div-2 .d-1 {
+    padding: 20px;
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+.slit-3 .div-2 .d-2 {
+    font-size: 25px;
+    margin-left: 8px;
+}
+
+.slit-3 .div-2 .d-3 {
+    height: 530px;
+    margin-left: 8px;
+}
 
 
+.slit-3 .div-2 .d-3 div{
+    width: 330px;
+    height: 160px;
+}
 
+.slit-3 .div-2 .d-3 div p br {
+    display: none;
+}
+
+.slit-3 .div-2 .d-3 div p {
+    width: 285px;
+    height: 80px;
+    font-size: 20px;
+    white-space: wrap;
+}
 
 
 

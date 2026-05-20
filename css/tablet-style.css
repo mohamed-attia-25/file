@@ -49,6 +49,14 @@
 
 
 
+/* start style tablet of slit-3 */
+.slit-3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 1250px;
+} /* end style tablet of slit-3 */
 
 
 
