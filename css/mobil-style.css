@@ -166,7 +166,7 @@
 /* start style mobil of slit-3 */
 .slit-3 {
     align-items: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
     height: 1200px;
 }
 
@@ -218,13 +218,14 @@
     height: 80px;
     font-size: 20px;
     white-space: wrap;
-}     
+}     /* end style mobil of slit-3 */
 
 
-/* start style mobil of slit-3 */
+
+
+/* start style mobil of slit-4 */
 
 .slit-4 {
-    background-color: red;
     flex-direction: column;
     align-items: center;
     height: 1100px;
@@ -247,19 +248,118 @@
 .slit-4 .div-2 {
     width: 300px;
     height: 600px;
-}   /* end style mobil of slit-3 */
+}   /* end style mobil of slit-4 */
 
 
 
 
+/* start style mobil of slit-5 */
+.slit-5 {
+    justify-content: center;
+    gap: 15px;
+    height: 1200px;
+}
+
+
+.slit-5 .div-1 {
+    margin-left: 0px;
+    width: fit-content;
+}
+
+.slit-5 .div-1 .img-1 {
+    transform: scale(0.9,0.9);
+    -webkit-transform: scale(0.9,0.9);
+    -moz-transform: scale(0.9,0.9);
+    -ms-transform: scale(0.9,0.9);
+    -o-transform: scale(0.9,0.9);
+}
+
+.slit-5 .div-1 .img-2 {
+    transform: scale(0.8,0.8);
+    -webkit-transform: scale(0.8,0.8);
+    -moz-transform: scale(0.8,0.8);
+    -ms-transform: scale(0.8,0.8);
+    -o-transform: scale(0.8,0.8);
+    left: 35%;
+}
+
+@keyframes move-img-card {
+    to {
+        transform: translateY(-30px) scale(0.8,0.8);
+        -webkit-transform: translateY(-30px) scale(0.8,0.8);
+        -moz-transform: translateY(-30px) scale(0.8,0.8);
+        -ms-transform: translateY(-30px) scale(0.8,0.8);
+        -o-transform: translateY(-30px) scale(0.8,0.8);
+    }
+}
 
 
 
+.slit-5 .div-2 {
+    margin-left: 10px;
+}
+
+.slit-5 .div-2 .cont-2 p{
+    font-size: 33px;
+}
+
+.slit-5 .div-2 .cont-3 p {
+    width: 300px;
+}   /* end style mobil of slit-5 */
 
 
 
+/* start style mobil of slit-6 */
+.slit-6 .div-1 .cont-2 p {
+    font-size: 35px;
+}   /* end style mobil of slit-6 */
 
 
+/* start style mobil of slit-7 */
+.slit-7 {
+    width: 90%;
+    height: 600px;
+}
+
+.slit-7 .div-1 {
+    align-self: flex-start;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.slit-7 .div-1 .img-1 {
+    transform: scale(0.8,0.8);
+    -webkit-transform: scale(0.8,0.8);
+    -moz-transform: scale(0.8,0.8);
+    -ms-transform: scale(0.8,0.8);
+    -o-transform: scale(0.8,0.8);
+    top: 20px;
+    right: 0px;
+}
+
+.slit-7 .div-1 .img-2 {
+    transform: scale(0.8,0.8);
+    -webkit-transform: scale(0.8,0.8);
+    -moz-transform: scale(0.8,0.8);
+    -ms-transform: scale(0.8,0.8);
+    -o-transform: scale(0.8,0.8);
+    bottom: -40px;
+    right: -10px;
+}
+
+@keyframes move-mobil {
+    to {
+        transform: translatey(-20px) scale(0.8,0.8);
+        -webkit-transform: translatey(-20px) scale(0.8,0.8);
+        -moz-transform: translatey(-20px) scale(0.8,0.8);
+        -ms-transform: translatey(-20px) scale(0.8,0.8);
+        -o-transform: translatey(-20px) scale(0.8,0.8);
+    }
+}
+
+.slit-7 .div-2 p {
+    font-size: 30px;
+}   /* start style mobil of slit-7 */
 
 
 

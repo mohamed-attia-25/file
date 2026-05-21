@@ -51,7 +51,7 @@
 
 /* start style tablet of slit-3 */
 .slit-3 {
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -85,7 +85,51 @@
 
 
 
+
+/* start style tablet of slit-5 */
+.slit-5 {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 1400px;
+    margin-top: 50px;
+}
+
+.slit-5 .div-1 {
+    margin-left: 20px;
+}
+
+
+.slit-5 .div-2 {
+    margin-left: 20px;
+}   /* end style tablet of slit-5 */
+
+
+/* start style tablet of slit-6 */
+.slit-6 .div-1 .cont-2 p {
+    font-size: 55px;
+}  /* end style tablet of slit-6 */
+
+
+/* start style tablet of slit-7 */
+.slit-7 {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    height: 700px;
+}
+
+.slit-7 .div-1 {
+    align-self: flex-start;
+}  /* end style tablet of slit-7 */
+
+
+
 } /* end tablet style */
+
+
+
 
 
 
