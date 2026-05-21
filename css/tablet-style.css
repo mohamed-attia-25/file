@@ -55,11 +55,33 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+    height: 1450px;
+} 
+
+.slit-3 .div-2 {
+    align-self: flex-start;
+    margin-left: 20px;
+}
+
+.slit-3 .div-2 .d-3 div {
+    width: 500px;
+}  /* end style tablet of slit-3 */
+
+
+/* start style tablet of slit-4 */
+.slit-4 {
+    flex-direction: column;
     height: 1250px;
-} /* end style tablet of slit-3 */
+    align-items: flex-start;
+}
 
+.slit-4 .div-1 {
+    margin-left: 30px;
+}
 
-
+.slit-4 .thabet{
+    margin: auto;
+}  /* end style tablet of slit-4 */
 
 
 
