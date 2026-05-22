@@ -1168,7 +1168,6 @@ li {
     -moz-transition: all 1s ease;
     -ms-transition: all 1s ease;
     -o-transition: all 1s ease;
-    background-color: red;
 }
 
 .slit-10 .check-last {
@@ -1282,8 +1281,6 @@ li {
 }
 
 
-
-
 .slit-10:has(#check-last:checked) label i {
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
@@ -1291,3 +1288,6 @@ li {
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
 }     /* end style slit-10 */
+
+
+/* start style slit-11 */

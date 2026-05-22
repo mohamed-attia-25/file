@@ -371,6 +371,7 @@
 .slit-8 .div-1,
 .slit-8 .div-2{
     height: 700px;
+    min-width: 200px;
 }
 
 .slit-8 .div-1 .cont-1 {
