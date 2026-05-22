@@ -359,7 +359,109 @@
 
 .slit-7 .div-2 p {
     font-size: 30px;
-}   /* start style mobil of slit-7 */
+}   /* end style mobil of slit-7 */
+
+
+
+/* start style mobil of slit-8 */
+.slit-8 {
+    margin-top: 0;
+}
+
+.slit-8 .div-1,
+.slit-8 .div-2{
+    height: 700px;
+}
+
+.slit-8 .div-1 .cont-1 {
+    padding-left: 10px;
+}
+
+.slit-8 .div-1 .cont-1 .p-1 {
+    font-size: 30px;
+}
+
+.slit-8 .div-1 .cont-1 .p-2 {
+    width: 300px;
+}
+
+
+.slit-8 .div-1 .cont-2 img {
+    transform: scale(0.7,0.8);
+    -webkit-transform: scale(0.7,0.8);
+    -moz-transform: scale(0.7,0.8);
+    -ms-transform: scale(0.7,0.8);
+    -o-transform: scale(0.7,0.8);
+}
+
+
+.slit-8 .div-2 .cont-1 {
+    padding-left: 10px;
+}
+
+
+.slit-8 .div-2 .cont-1 .p-1 {
+    font-size: 30px;
+}
+
+.slit-8 .div-2 .cont-1 .p-2 {
+    width: 300px;
+}  
+
+.slit-8 .div-2 .cont-2 {
+    width: 325px;
+
+}
+
+.slit-8 .div-2 .cont-2 .img-1 {
+    transform: scale(0.8,0.8);
+    -webkit-transform: scale(0.8,0.8);
+    -moz-transform: scale(0.8,0.8);
+    -ms-transform: scale(0.8,0.8);
+    -o-transform: scale(0.8,0.8);
+    position: absolute;
+    right: 10px;
+    top:10px
+}
+
+.slit-8 .div-2 .cont-2 .img-2 {
+    bottom: 25%;
+    transform: scale(0.8,0.8);
+    -webkit-transform: scale(0.8,0.8);
+    -moz-transform: scale(0.8,0.8);
+    -ms-transform: scale(0.8,0.8);
+    -o-transform: scale(0.8,0.8);
+}
+
+@keyframes move-dash {
+    to {
+        transform: translateY(30px) scale(0.8,0.8);
+        -webkit-transform: translateY(30px) scale(0.8,0.8);
+        -moz-transform: translateY(30px) scale(0.8,0.8);
+        -ms-transform: translateY(30px) scale(0.8,0.8);
+        -o-transform: translateY(30px) scale(0.8,0.8);
+}
+} /* end style mobil of slit-8 */
+
+
+/* start style mobil of slit-9 */
+.slit-9 {
+    margin-top: 0px;
+}
+
+
+.slit-9 .div-1,
+.slit-9 .div-2,
+.slit-9 .div-3 {
+    width: 95%;
+}     /* end style mobil of slit-9 */
+
+
+
+
+
+
+
 
 
 
