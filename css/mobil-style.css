@@ -105,13 +105,6 @@
  /* end style mobil of nav bar */
 
 
-
-
-
-
-
-
-
 /* start style mobil of slit-1 */
 .slit-1 {
     transform: translateY(80px);
@@ -135,6 +128,10 @@
     -moz-transform: scale(0.8,0.8);
     -ms-transform: scale(0.8,0.8);
     -o-transform: scale(0.8,0.8);
+}
+
+.slit-1 .div-1 .cont-3 {
+    font-size: 17px;
 }
 
 .slit-1 .div-2 {
@@ -331,16 +328,10 @@
 
 
 
-
-
-
 /* start style mobil of slit-6 */
 .slit-6 .div-1 .cont-2 p {
     font-size: 35px;
 }   /* end style mobil of slit-6 */
-
-
-
 
 
 
@@ -390,9 +381,6 @@
 .slit-7 .div-2 p {
     font-size: 30px;
 }   /* end style mobil of slit-7 */
-
-
-
 
 
 

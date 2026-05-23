@@ -208,7 +208,6 @@ li {
 
 
 .slit-1 .div-1 .cont-3 {
-    width: 400px;
     font-size: 18px;
     text-transform: capitalize;
     color: white;
@@ -1557,7 +1556,6 @@ li {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: red;
     width: 85%;
     background-image: url(../photo/Frame\ 1000011503.webp);
     background-position: center;
