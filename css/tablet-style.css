@@ -179,6 +179,32 @@
 } /* end style tablet of slit-10 */
 
 
+/* start style tablet of slit-11 */
+.slit-11 {
+    height: 1185px;
+    gap: 70px;
+}
+
+.slit-11 .div-1 .cont-2 h2 {
+    font-size: 45px;
+}
+
+.slit-11 .div-2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    white-space: wrap;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+
+.slit-11:has(#check-comment:checked) {
+    height: 3500px;
+}   /* end style tablet of slit-11 */
+
 
 
 

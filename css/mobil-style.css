@@ -1,5 +1,7 @@
 /* start mobil style */
 @media (max-width: 600px) {
+
+    
     /* start style mobil of nav bar */
     .nav-bar {
         height: 80px;
@@ -105,6 +107,11 @@
 
 
 
+
+
+
+
+
 /* start style mobil of slit-1 */
 .slit-1 {
     transform: translateY(80px);
@@ -142,6 +149,10 @@
 
 
 
+
+
+
+
 /* start style mobil of slit-2 */
 .slit-2 {
     margin-top: 80px;
@@ -161,6 +172,10 @@
     width: 50%;
     height: 100%;
 }  /* end style mobil of slit-2 */
+
+
+
+
 
 
 /* start style mobil of slit-3 */
@@ -223,6 +238,9 @@
 
 
 
+
+
+
 /* start style mobil of slit-4 */
 
 .slit-4 {
@@ -249,6 +267,9 @@
     width: 300px;
     height: 600px;
 }   /* end style mobil of slit-4 */
+
+
+
 
 
 
@@ -309,10 +330,19 @@
 
 
 
+
+
+
+
 /* start style mobil of slit-6 */
 .slit-6 .div-1 .cont-2 p {
     font-size: 35px;
 }   /* end style mobil of slit-6 */
+
+
+
+
+
 
 
 /* start style mobil of slit-7 */
@@ -360,6 +390,11 @@
 .slit-7 .div-2 p {
     font-size: 30px;
 }   /* end style mobil of slit-7 */
+
+
+
+
+
 
 
 
@@ -445,6 +480,9 @@
 } /* end style mobil of slit-8 */
 
 
+
+
+
 /* start style mobil of slit-9 */
 .slit-9 {
     margin-top: 0px;
@@ -458,10 +496,57 @@
 }     /* end style mobil of slit-9 */
 
 
+
+
+
+
 /* start style mobil of slit-10 */
 .slit-10 {
     width: 95%;
 }   /* end style mobil of slit-10 */
+
+
+
+
+
+
+/* start style mobil of slit-11 */
+.slit-11 {
+    height: 1165px;
+}
+
+
+.slit-11:has(#check-comment:checked) {
+    height: 3500px;
+}  
+
+
+.slit-11 .div-1 .cont-2 h2 {
+    font-size: 28px;
+}
+
+.slit-11 .div-2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    white-space: wrap;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+
+.slit-11 .div-2 .cont-1,
+.slit-11 .div-2 .cont-2,
+.slit-11 .div-2 .cont-3 {
+    width: 350px;
+    height: 320px;
+}      /* end style mobil of slit-11 */
+
+
+
+
 
 
 
