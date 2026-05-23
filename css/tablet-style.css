@@ -234,16 +234,14 @@
 
 
 
+/* start style tablet of footer */
+.footer .cont-3 ul{
+    flex-wrap: wrap;
+}
 
-
-
-
-
-
-
-
-
-
+.footer .cont-6 ul{
+    flex-wrap: wrap;
+}     /* end style tablet of footer */
 
 
 } /* end tablet style */
